@@ -1,0 +1,37 @@
+# .gitignore
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Model weights (large files)
+model/weights/*.pth
+model/weights/*.pt
+model/weights/training_curves.png
+model/weights/confusion_matrix.png
+
+# Data (downloaded separately)
+data/
+!data/.gitkeep
+
+# Logs and screenshots
+logs/
+screenshots/
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
