@@ -1,10 +1,10 @@
-# 🎭 Real-Time Emotion Detection
+# Real-Time Emotion Detection
 
 A production-quality desktop application that detects facial emotions in real time using a webcam, a custom CNN trained on FER-2013, and OpenCV for face detection and rendering.
 
 ---
 
-## 🧠 Model Details
+## Model Details
 
 ### Architecture: EmotionCNN
 
@@ -33,7 +33,7 @@ A production-quality desktop application that detects facial emotions in real ti
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📊 Training
+## Training
 
 ### 1. Download FER-2013
 
